@@ -26,7 +26,7 @@ public class DimensionTool {
     //1、velue中基本的dimension.xml配置的调试用的屏幕
     private static final float BASIC_UIp = 360;
     //2、添加屏幕规格
-    private static Integer[] allUIp = {240, 320, 360, 384,392,400,410,411,480,533,592,600,640,662,720,768,800,811,820,960,961,1024,1280,1365};
+    private static Integer[] allUIp = {169,240, 320, 360, 384,392,400,410,411,480,533,592,600,640,662,720,768,800,811,820,960,961,1024,1280,1365};
 
     //数据缓存基类
     private static final class SwObj {
