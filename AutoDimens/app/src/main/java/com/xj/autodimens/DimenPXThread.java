@@ -41,6 +41,7 @@ public class DimenPXThread implements Runnable{
         dimensData.add(new DimensPX(1080,2040));
         dimensData.add(new DimensPX(1080,2160));
         dimensData.add(new DimensPX(1080,2400));
+        dimensData.add(new DimensPX(1350,3000));
         dimensData.add(new DimensPX(1440,2560));
 
     }
