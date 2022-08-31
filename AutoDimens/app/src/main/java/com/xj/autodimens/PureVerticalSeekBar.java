@@ -17,6 +17,16 @@ import android.view.View;
 
 import com.android.launcher3.R;
 
+/*public void fillData(BaseViewHolder helper, TuyaEntity tuyaEntity) {
+        PureVerticalSeekBar mPureVerticalSeekBar= helper.getView(R.id.vpb_inner_3);
+        mPureVerticalSeekBar.setColor(Color.RED, Color.YELLOW, Color.GREEN, Color.BLUE, Color.TRANSPARENT);
+//        mPureVerticalSeekBar.setVertical_color(Color.RED);
+        mPureVerticalSeekBar.setDragable(true);
+//        mPureVerticalSeekBar.setVertical_color(Color.parseColor("#2A2A2A"),Color.parseColor("#A34795"));//设置滑竿的颜色，上下两个颜色
+//        mPureVerticalSeekBar.setCircle_color(Color.BLUE);
+
+        helper.setText(R.id.light_txt, tuyaEntity.getTitle());
+        }*/
 
 public class PureVerticalSeekBar extends View {
     private static final String TAG = PureVerticalSeekBar.class.getSimpleName();
