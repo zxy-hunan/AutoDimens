@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/y64"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llItem"
+    android:layout_marginLeft="@dimen/y42"
+    android:layout_marginBottom="@dimen/x23">
+
+
+<com.android.launcher3.rootapp.widget.RoundRelativeLayout
+    android:id="@+id/roundlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2A2A2A">
+
+    <com.android.launcher3.rootapp.widget.PureVerticalSeekBar
+        android:id="@+id/vpb_inner_3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x330"
+        app:dragable="true" />
+
+</com.android.launcher3.rootapp.widget.RoundRelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/power_sel"
+        android:layout_below="@id/roundlayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/x9"/>
+
+    <TextView
+        android:id="@+id/light_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_power"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/x5"
+        android:text="主灯"
+        android:ellipsize="end"
+        android:textColor="@color/white"
+        android:textSize="@dimen/x12" />
+
+</RelativeLayout>
